@@ -1,6 +1,5 @@
-const Search = () => {
-    return <h1>Search</h1>;
-  };
-  
-  export default Search;
-  
+const Search = ({title}) => {
+  return <p>{title}</p>;
+};
+
+export default Search;

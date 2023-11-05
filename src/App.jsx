@@ -6,6 +6,11 @@ import './App.css'
 import Footer from './componnent/Footer'
 import Header from './componnent/Header'
 import Home from './componnent/Home'
+import Header from './componnent/Header'
+import Home from './componnent/Home'
+import Card_info from './componnent/Home/Card_Info'
+import Search from './componnent/Home/Search'
+
 
 const App = () => {
   return (
