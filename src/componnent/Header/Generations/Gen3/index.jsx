@@ -1,6 +1,5 @@
-const Gen3 = () => {
-    return <h1>Gen3</h1>;
-  };
-  
-  export default Gen3;
-  
+const Gen3 = ({title}) => {
+  return <p>{title}</p>;
+};
+
+export default Gen3;
