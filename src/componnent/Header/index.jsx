@@ -1,14 +1,5 @@
-import Generations from "./Generations";
-import Logo from "./Logo";
+const Header = ({title}) => {
+  return <p>{title}</p>;
+};
 
-
-const Header = () => {
-    return (
-        <>
-          <Generations />
-          <Logo />
-        </>
-      );
-  };
-  
-  export default Header;
+export default Header;
